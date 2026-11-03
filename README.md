@@ -1,6 +1,15 @@
 # api-lab
 6787084_W10-API_Lab_Exercise
 
+## How to install and run
+
+1. Create and activate a virtual environment:
+   - Windows PowerShell: `python -m venv .venv` then `.venv\Scripts\activate`
+   - macOS and Linux: `python3 -m venv .venv` then `source .venv/bin/activate`
+2. Install the packages: `pip install -r requirements.txt`
+3. Run all tests: `pytest -v`
+4. Save an HTML report of a full run: `pytest -v --html=report.html --self-contained-html`
+
 ## Input domain model: POST /api/ratings
 
 | Characteristic | Block | Value in the test | Test |
